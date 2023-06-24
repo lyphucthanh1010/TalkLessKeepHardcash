@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+   <link rel="stylesheet" href="SignUp.css">  
+   <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+   <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+   <title>TLKH</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="images/images.png">
+      </div>
+      <div class="login-content">
+        <form class="form">
+          <img src="images/uitiot.png">
+          <h2 class="title">Sign Up</h2>
+          <div class="input-div user">
+            <div class="i"> 
+               <i class="fas fa-sdt"></i>
+            </div>
+            <div class="div">
+               <input type="text" id="user" class="input" placeholder ="Username">
+           </div>
+          </div>
+                 <div class="input-div one">
+                    <div class="i">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="div">
+                        <input type="email" id ="email" class="input" placeholder="Email">
+                    </div>
+                 </div>
+                 <div class="input-div pass">
+                    <div class="i"> 
+                       <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                       <input type="password" id="password" class="input" placeholder ="Password">
+                   </div>
+                </div>
+                <div class="input-div mobile">
+                    <div class="i"> 
+                       <i class="fas fa-sdt"></i>
+                    </div>
+                    <div class="div">
+                       <input type="text" id="mobile" class="input" placeholder ="Phone Number">
+                   </div>
+                </div>
+                <button id="signup_btn"class="btn">Sign Up</button>
+                <div class ="back" id="back">
+                  <a href="#" id="signup">Already have account? Sign In</a>
+                  </div>
+              </form>
+          </div>
+      </div>
+  </body>
+  <script src="SignUp.js" type="module"></script>
+</html>
